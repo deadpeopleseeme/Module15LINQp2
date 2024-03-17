@@ -12,3 +12,4 @@ E:\code\Module15LINQ2\obj\Debug\net8.0\refint\Module15LINQ2.dll
 E:\code\Module15LINQ2\obj\Debug\net8.0\Module15LINQ2.pdb
 E:\code\Module15LINQ2\obj\Debug\net8.0\Module15LINQ2.genruntimeconfig.cache
 E:\code\Module15LINQ2\obj\Debug\net8.0\ref\Module15LINQ2.dll
+E:\code\Module15LINQ2\obj\Debug\net8.0\Module15LINQ2.sourcelink.json

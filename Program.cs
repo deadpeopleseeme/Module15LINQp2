@@ -1,29 +1,20 @@
-﻿namespace Module15LINQ2
+namespace Module15LINQ2
 {
-    internal class Program
+    class Program
     {
-
         static void Main(string[] args)
         {
-            var phoneBook = new List<Contact>
+            var classes = new[]
             {
-                // добавляем контакты
-                new("Игорь", 79990000001, "igor@example.com"),
-                new("Сергей", 79990000010, "serge@example.com"),
-                new("Анатолий", 79990000011, "anatoly@example.com"),
-                new("Валерий", 79990000012, "valera@example.com"),
-                new("Сергей", 799900000013, "serg@gmail.com"),
-                new("Иннокентий", 799900000013, "innokentii@example.com")
+               new Classroom { Students = {"Evgeniy", "Sergey", "Andrew"}, },
+               new Classroom { Students = {"Anna", "Viktor", "Vladimir"}, },
+               new Classroom { Students = {"Bulat", "Alex", "Galina"}, }
             };
+          
+            var allStudents = Classroom.GetAllStudents(classes);
 
-            var contactsByEmail = from s in phoneBook
-                group s by s.Email into grouping
-                select new
-                    {
-                        Name = grouping.Key,
-                        Cars = from p in grouping select p //  выполним подзапрос, чтобы заполнить список машин внутри нашего нового типа
-                    };
-
-        }
+            // Выводим всех студентов
+            Console.WriteLine(string.Join(" ", allStudents));
+        }      
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Module15LINQ2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99b6fe7b79b26caa66a8cd9573dc4a1a286d5787")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec1583546fa4bedff067ebcc0ebd0db88b338d76")]
 [assembly: System.Reflection.AssemblyProductAttribute("Module15LINQ2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Module15LINQ2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
